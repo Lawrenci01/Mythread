@@ -1,15 +1,14 @@
-{  
-  "rewrites": [  
-    { "source": "/(.*)", "destination": "/index.html" }  
-  ],  
-  "builds": [  
-    {  
-      "src": "dist/**/*",  
-      "use": "@vercel/static"  
-    }  
-  ]  
-<<<<<<< HEAD
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "builds": [
+    {
+      "src": "dist/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "env": {
+    "NODE_VERSION": "18"
+  }
 }
-=======
-}
->>>>>>> c1828078672a495e4b0467140bfa7c54cece3190
